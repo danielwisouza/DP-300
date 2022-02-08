@@ -1,33 +1,44 @@
 # DP-300: Administering Relational Databases on Microsoft Azure
 
-Este repositório contém as instruções, arquivos de script e imagens para os exercícios de laboratório para o Instruction Led Training for Microsoft DP-300.
+This repository contains the instructions, script files and images for the lab exercises for the Instruction Led Training for Microsoft DP-300. 
 
-São sete laboratórios.
+There are seven labs.
 
-## Laboratório 1 - Usando o Portal do Azure e o SQL Server Management Studio
-Os alunos explorarão o Portal do Azure e o usarão para criar uma VM do Azure com o SQL Server 2019 instalado. Em seguida, eles se conectarão à máquina virtual por meio do Remote Desktop Protocol e restaurarão um banco de dados usando o SQL Server Management Studio.
+## Lab 1 - Using the Azure Portal and SQL Server Management Studio
 
-## Laboratório 2 – Implantação de bancos de dados PaaS
-O aluno configurará os recursos básicos necessários para implantar um Banco de Dados SQL do Azure com um Virtual Network Endpoint. A conectividade com o Banco de Dados SQL será validada usando o Azure Data Studio da VM do laboratório. Por fim, será criado um Banco de Dados do Azure para PostgreSQL.
+Students will explore the Azure Portal and use it to create an Azure VM with SQL Server 2019 installed. Then they will connect to the virtual machine through Remote Desktop Protocol and restore a database using SQL Server Management Studio.
 
-## Laboratório 3 – Implementar um ambiente seguro
-Os alunos usarão as informações obtidas nas aulas para configurar e, posteriormente, implementar a segurança no Portal do Azure e no banco de dados AdventureWorks.
+## Lab 2 – Deploying PaaS Databases
 
-## Laboratório 4 – Monitorar e otimizar recursos
-Os alunos usarão as informações obtidas nas aulas para definir os resultados de um projeto de transformação digital no AdventureWorks. Examinando o portal do Azure, bem como outras ferramentas, os alunos determinarão como utilizar ferramentas nativas para identificar e resolver problemas relacionados ao desempenho. Por fim, os alunos serão capazes de identificar a fragmentação no banco de dados, bem como aprender as etapas para resolver o problema adequadamente.
+The student will configure basic resources needed to deploy an Azure SQL Database with a Virtual Network Endpoint. Connectivity to the SQL Database will be validated using Azure Data Studio from the lab VM. Finally, an Azure Database for PostgreSQL will be created.
 
-## Laboratório 5 - Solução de problemas de desempenho de consultas
-Os alunos avaliarão um projeto de banco de dados para problemas com normalização, seleção de tipo de dados e projeto de índice. Eles executarão consultas com desempenho abaixo do ideal, examinarão os planos de consulta e tentarão fazer melhorias no banco de dados AdventureWorks2017.
+## Lab 3 – Implement a Secure Environment
 
-## Laboratório 6 - Automatizar recursos
-Os alunos usarão as informações obtidas nas lições para configurar e, posteriormente, implementar processos automatizados no AdventureWorks.
+The students will take the information gained in the lessons to configure and subsequently implement security in the Azure Portal and within the AdventureWorks database.
 
-## Laboratório 7 – Planejamento e implementação de um ambiente de alta disponibilidade e recuperação de desastres
-Os alunos executarão duas tarefas principais: tornar o Banco de Dados SQL do Azure com redundância geográfica e fazer backup e restauração de uma URL que usa o Azure.
+## Lab 4 – Monitor and Optimize Resources
 
-### Notas
-Você pode baixar um arquivo .zip contendo PDFs de todas as instruções do laboratório, incluindo imagens. O arquivo está na pasta Instruções.
+The students will take the information gained in the lessons to scope out the deliverables for a digital transformation project within AdventureWorks. Examining the Azure portal as well as other tools, students will determine how to utilize native tools to identify and resolve performance related issues. Finally, students will be able to identify fragmentation within the database as well as learn steps to resolve the issue appropriately.
 
-É altamente recomendável que os MCTs e Parceiros acessem esses materiais e, por sua vez, os forneçam separadamente aos alunos. Indicar os alunos diretamente para o GitHub para acessar as etapas do laboratório como parte de uma aula em andamento exigirá que eles acessem outra interface do usuário como parte do curso, contribuindo para uma experiência confusa para o aluno. Uma explicação ao aluno sobre por que ele está recebendo instruções de laboratório separadas pode destacar a natureza de uma interface e plataforma baseada em nuvem em constante mudança. O suporte do Microsoft Learning para acessar arquivos no GitHub e o suporte para navegação do site do GitHub são limitados apenas aos MCTs que ensinam este curso.
+## Lab 5 -Query Performance Troubleshooting
 
-Ao copiar o código dos exercícios de laboratório para a Máquina Virtual do laboratório, ocasionalmente as quebras de linha não serão exibidas corretamente. Verifique se o código foi copiado corretamente antes de executá-lo.
+The students will evaluate a database design for problems with normalization, data type selection and index design. They will run queries with suboptimal performance, examine the query plans, and attempt to make improvements within the AdventureWorks2017 database.
+
+## Lab 6 – Automate Resources
+
+The students will take the information gained in the lessons to configure and subsequently implement automate processes within AdventureWorks.
+
+## Lab 7 – Planning and Implementing a High Availability and Disaster Recovery Environment
+
+The students will execute two main tasks: make Azure SQL Database geo-redundant, and backup to and restore from a URL which uses Azure.
+
+## Notes
+
+
+You can download a .zip file containing PDFs of all the lab instructions including images. The file is in the Instructions folder. 
+
+It is strongly recommended that MCTs and Partners access these materials and in turn, provide them separately to students.  Pointing students directly to GitHub to access Lab steps as part of an ongoing class will require them to access yet another UI as part of the course, contributing to a confusing experience for the student. An explanation to the student regarding why they are receiving separate Lab instructions can highlight the nature of an always-changing cloud-based interface and platform. Microsoft Learning support for accessing files on GitHub and support for navigation of the GitHub site is limited to MCTs teaching this course only. 
+
+When copying code from the lab exercises into the lab Virtual Machine, occasionally line breaks will not come across properly. Please verify that the code is correctly copied before executing it. 
+
+
